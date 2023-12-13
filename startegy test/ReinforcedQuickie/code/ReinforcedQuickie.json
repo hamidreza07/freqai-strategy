@@ -1,0 +1,42 @@
+{
+  "strategy_name": "ReinforcedQuickie",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.99
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_num": 10,
+      "resample_factor": 19
+    },
+    "sell": {
+      "csell_endtrend_respect_roi": true,
+      "csell_pullback": true,
+      "csell_pullback_amount": 0.074,
+      "csell_pullback_respect_roi": true,
+      "csell_roi_end": 0.001,
+      "csell_roi_start": 0.108,
+      "csell_roi_time": 1048,
+      "csell_roi_type": "decay",
+      "csell_trend_type": "none",
+      "cstop_bail_how": "time",
+      "cstop_bail_roc": -2.285,
+      "cstop_bail_time": 1178,
+      "cstop_bail_time_trend": true,
+      "cstop_loss_threshold": -0.157,
+      "cstop_max_stoploss": -0.122
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-13 14:08:09.932585+00:00"
+}

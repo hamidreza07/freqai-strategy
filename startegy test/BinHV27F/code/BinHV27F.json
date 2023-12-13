@@ -1,0 +1,43 @@
+{
+  "strategy_name": "BinHV27F",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "leverage_num": 3,
+      "buy_adx1": 11,
+      "buy_adx2": 63,
+      "buy_adx3": 53,
+      "buy_adx4": 20,
+      "buy_emarsi1": 35,
+      "buy_emarsi2": 34,
+      "buy_emarsi3": 70,
+      "buy_emarsi4": 88
+    },
+    "sell": {
+      "adx2": 68,
+      "emarsi1": 72,
+      "emarsi2": 81,
+      "emarsi3": 87
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.247,
+      "26": 0.055,
+      "72": 0.016,
+      "155": 0
+    },
+    "stoploss": {
+      "stoploss": -0.173
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-13 12:31:52.959470+00:00"
+}

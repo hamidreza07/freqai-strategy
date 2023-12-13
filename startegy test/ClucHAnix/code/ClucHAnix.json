@@ -1,0 +1,43 @@
+{
+  "strategy_name": "ClucHAnix",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.001,
+      "trailing_stop_positive_offset": 0.012,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "bbdelta_close": 0.0007,
+      "bbdelta_tail": 0.9947,
+      "close_bblower": 0.016,
+      "closedelta_close": 0.0005,
+      "leverage_num": 10,
+      "rocr_1h": 0.8431
+    },
+    "sell": {
+      "sell_bbmiddle_close": 1.07634,
+      "sell_fisher": 0.38414,
+      "pHSL": -0.91,
+      "pPF_1": 0.069,
+      "pPF_2": 0.137,
+      "pSL_1": 0.011,
+      "pSL_2": 0.186
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.22399999999999998,
+      "24": 0.076,
+      "70": 0.037,
+      "110": 0
+    },
+    "stoploss": {
+      "stoploss": -0.263
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-13 12:50:44.765755+00:00"
+}
