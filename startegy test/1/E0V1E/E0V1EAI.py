@@ -12,7 +12,7 @@ from typing import Dict,Optional
 
 class E0V1EAI(IStrategy):
     minimal_roi = {
-        "0": 1
+        "0": 0.03
     }
 
     timeframe = '5m'
@@ -36,7 +36,7 @@ class E0V1EAI(IStrategy):
     stoploss = -0.25
 
     use_custom_stoploss = True
-
+    can_short = True
     is_optimize_32 = True
     buy_rsi_fast_32 = IntParameter(20, 70, default=45, space='buy', optimize=is_optimize_32)
     buy_rsi_32 = IntParameter(15, 50, default=35, space='buy', optimize=is_optimize_32)
@@ -102,32 +102,41 @@ class E0V1EAI(IStrategy):
 
     def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
         dataframe = self.freqai.start(dataframe, metadata, self)
+        dataframe['rsi_shifted'] = dataframe['&-rsi_slow'].shift(1)
 
-        dataframe['shifted_rsi'] = dataframe['&-rsi_slow'].shift(1)
 
         return dataframe
 
     def populate_entry_trend(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
 
-        conditions = []
-        dataframe.loc[:, 'enter_tag'] = ''
+        enter_long_conditions = [
+            dataframe["do_predict"] == 1,
+            (dataframe['&-rsi_slow'] < dataframe['rsi_shifted']) ,
+            (dataframe['&-rsi_fast'] < self.buy_rsi_fast_32.value) ,
+            (dataframe['&-rsi'] > self.buy_rsi_32.value) ,
+            (dataframe['&-close'] < dataframe['&-sma_15'] * self.buy_sma15_32.value) ,
+            (dataframe['&-cti'] < self.buy_cti_32.value)
+            ]
 
-        buy_1 = (
-                (dataframe['&-rsi_slow'] < dataframe['shifted_rsi']) &
-                (dataframe['&-rsi_fast'] < self.buy_rsi_fast_32.value) &
-                (dataframe['&-rsi'] > self.buy_rsi_32.value) &
-                (dataframe['&-close'] < dataframe['&-sma_15'] * self.buy_sma15_32.value) &
-                (dataframe['&-cti'] < self.buy_cti_32.value)
-        )
-
-        conditions.append(buy_1)
-        dataframe.loc[buy_1, 'enter_tag'] += 'buy_1'
-
-        if conditions:
+        if enter_long_conditions:
             dataframe.loc[
-                reduce(lambda x, y: x | y, conditions),
-                'enter_long'] = 1
+                reduce(lambda x, y: x & y, enter_long_conditions), ["enter_long", "enter_tag"]
+            ] = (1, "long")
 
+        enter_short_conditions = [
+            dataframe["do_predict"] == 1,
+            (dataframe['&-rsi_slow'] > dataframe['rsi_shifted']) ,
+            (dataframe['&-rsi_fast'] > self.buy_rsi_fast_32.value) ,
+            (dataframe['&-rsi'] < self.buy_rsi_32.value) ,
+            (dataframe['&-close'] > dataframe['&-sma_15'] * self.buy_sma15_32.value) ,
+            (dataframe['&-cti'] > self.buy_cti_32.value)
+          
+            ]
+
+        if enter_short_conditions:
+            dataframe.loc[
+                reduce(lambda x, y: x & y, enter_short_conditions), ["enter_short", "enter_tag"]
+            ] = (1, "short")
         return dataframe
 
     def custom_stoploss(self, pair: str, trade: Trade, current_time: datetime, current_rate: float,

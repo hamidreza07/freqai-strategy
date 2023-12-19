@@ -1,0 +1,59 @@
+{
+  "strategy_name": "BigZ04",
+  "params": {
+    "roi": {
+      "0": 0.028,
+      "10": 0.018,
+      "40": 0.005,
+      "180": 0.018
+    },
+    "stoploss": {
+      "stoploss": -0.99
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.01,
+      "trailing_stop_positive_offset": 0.025,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_bb20_close_bblowerband_safe_1": 0.883,
+      "buy_bb20_close_bblowerband_safe_2": 1.068,
+      "buy_condition_0_enable": false,
+      "buy_condition_10_enable": false,
+      "buy_condition_11_enable": true,
+      "buy_condition_12_enable": false,
+      "buy_condition_13_enable": true,
+      "buy_condition_1_enable": true,
+      "buy_condition_2_enable": true,
+      "buy_condition_3_enable": false,
+      "buy_condition_4_enable": true,
+      "buy_condition_5_enable": true,
+      "buy_condition_6_enable": false,
+      "buy_condition_7_enable": true,
+      "buy_condition_8_enable": false,
+      "buy_condition_9_enable": false,
+      "buy_macd_1": 0.01,
+      "buy_macd_2": 0.01,
+      "buy_rsi_1": 11.2,
+      "buy_rsi_1h_1": 34.7,
+      "buy_rsi_1h_2": 25.3,
+      "buy_rsi_1h_3": 33.2,
+      "buy_rsi_1h_4": 26.9,
+      "buy_rsi_1h_5": 22.7,
+      "buy_rsi_2": 17.4,
+      "buy_rsi_3": 17.0,
+      "buy_volume_drop_1": 10.0,
+      "buy_volume_drop_2": 6.2,
+      "buy_volume_drop_3": 4.3,
+      "buy_volume_pump_1": 0.4
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-19 09:33:51.391081+00:00"
+}
