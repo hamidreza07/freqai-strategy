@@ -193,7 +193,7 @@
 | Best Pair                   | UNFI/USDT:USDT 15.95%     |
 | Worst Pair                  | DUSK/USDT:USDT -14.24%    |
 | Best trade                  | 1000LUNC/USDT:USDT 14.59% |
-| Worst trade                 | ARPA/USDT:USDT -5.12%     |
+| Worst trade                 | ARPA/USDT:USDT -5.12%     |SmoothOperator
 | Best day                    | 739.859 USDT              |
 | Worst day                   | -429.533 USDT             |
 | Days win/draw/lose          | 16 / 0 / 14               |
