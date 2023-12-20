@@ -1,0 +1,40 @@
+{
+  "strategy_name": "flawless_lambo",
+  "params": {
+    "roi": {
+      "0": 0.0625,
+      "28": 0.05,
+      "76": 0.04,
+      "125": 0.03,
+      "240": 0.02,
+      "360": 0
+    },
+    "stoploss": {
+      "stoploss": -0.0625
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.0069,
+      "trailing_stop_positive_offset": 0.038,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "entry_rsi_high": 34.666,
+      "entry_rsi_low": 11.999,
+      "entry_volume": 1811.866,
+      "entry_williams_high": -85.943,
+      "entry_williams_low": -66.227
+    },
+    "sell": {
+      "exit_rsi": 92.786,
+      "exit_volume": 85450.606,
+      "exit_williams": -21.26
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-20 11:01:10.213500+00:00"
+}

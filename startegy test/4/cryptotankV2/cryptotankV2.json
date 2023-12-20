@@ -1,0 +1,58 @@
+{
+  "strategy_name": "cryptotankV2",
+  "params": {
+    "roi": {
+      "0": 0.1
+    },
+    "stoploss": {
+      "stoploss": -0.25
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_dip_x": 1.4,
+      "buy_lower": -1.6,
+      "buy_ma_slope": -0.04,
+      "buy_offset1": 0.9,
+      "buy_offset2": 0.96,
+      "buy_rsi_dip": 30,
+      "buy_rsi_length": 15,
+      "buy_rsi_lower": 21,
+      "buy_rsi_ma_length": 10,
+      "buy_rsi_ma_slope": 0.05,
+      "buy_rsi_upper": 55,
+      "reference_ma_length": 184,
+      "smoothing_length": 42
+    },
+    "sell": {
+      "filterlength": 31,
+      "sell_offset": 1.08,
+      "ts0": 0.013,
+      "ts1": 0.011,
+      "ts2": 0.023,
+      "ts3": 0.039,
+      "ts4": 0.04,
+      "ts5": 0.04,
+      "tsl_target0": 0.027,
+      "tsl_target1": 0.054,
+      "tsl_target2": 0.606,
+      "tsl_target3": 0.08,
+      "tsl_target4": 0.11,
+      "tsl_target5": 0.19
+    },
+    "protection": {
+      "cooldown_lookback": 11,
+      "stop_duration": 32,
+      "use_stop_protection": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-20 08:59:53.554803+00:00"
+}

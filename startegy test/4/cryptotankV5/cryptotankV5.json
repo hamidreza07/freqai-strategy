@@ -1,0 +1,55 @@
+{
+  "strategy_name": "cryptotankV5",
+  "params": {
+    "roi": {
+      "0": 0.1
+    },
+    "stoploss": {
+      "stoploss": -0.25
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "bear_from_max": -6.9,
+      "buy_change": 1.2,
+      "buy_offset1": 0.99,
+      "buy_offset2": 0.97,
+      "max_length": 15,
+      "min_length": 142,
+      "reference_ma_length": 195,
+      "smoothing_length": 23
+    },
+    "sell": {
+      "filterlength": 38,
+      "sell_change": 1.4,
+      "sell_offset": 1.01,
+      "sell_slope": -0.03,
+      "ts0": 0.015,
+      "ts1": 0.01,
+      "ts2": 0.029,
+      "ts3": 0.04,
+      "ts4": 0.04,
+      "ts5": 0.04,
+      "tsl_target0": 0.043,
+      "tsl_target1": 0.054,
+      "tsl_target2": 0.082,
+      "tsl_target3": 0.1,
+      "tsl_target4": 0.2,
+      "tsl_target5": 0.3
+    },
+    "protection": {
+      "cooldown_lookback": 37,
+      "stop_duration": 33,
+      "use_stop_protection": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-20 09:11:13.332154+00:00"
+}
