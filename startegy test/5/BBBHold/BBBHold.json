@@ -1,0 +1,36 @@
+{
+  "strategy_name": "BBBHold",
+  "params": {
+    "roi": {
+      "0": 0.155,
+      "65": 0.075,
+      "87": 0.039,
+      "305": 0
+    },
+    "stoploss": {
+      "stoploss": -0.253
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.288,
+      "trailing_stop_positive_offset": 0.302,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_bb_gain": 0.01,
+      "buy_fisher": 0.33,
+      "buy_fisher_enabled": true,
+      "buy_mfi": 39.0,
+      "buy_mfi_enabled": false
+    },
+    "sell": {
+      "sell_hold": true
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-23 12:48:54.630360+00:00"
+}
