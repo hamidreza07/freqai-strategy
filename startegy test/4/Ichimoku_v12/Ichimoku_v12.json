@@ -1,0 +1,60 @@
+{
+  "strategy_name": "Ichimoku_v12",
+  "params": {
+    "roi": {
+      "0": 0.05
+    },
+    "stoploss": {
+      "stoploss": -0.35
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_offset1": 0.99,
+      "buy_offset2": 0.94,
+      "bl": 69,
+      "cl": 17,
+      "dpl": 28,
+      "lag": 104
+    },
+    "sell": {
+      "sell_offset1": 1.04,
+      "sell_offset2": 1.1,
+      "ts3": 0.039,
+      "ts4": 0.03,
+      "ts5": 0.06,
+      "tsl_target3": 0.12,
+      "tsl_target4": 0.18,
+      "tsl_target5": 0.4
+    },
+    "protection": {
+      "cooldown_lookback": 5,
+      "lowprofit_only_per_pair": false,
+      "lowprofit_protection_lookback": 6,
+      "lowprofit_required_profit": 0.0,
+      "lowprofit_stop_duration": 60,
+      "lowprofit_trade_limit": 4,
+      "maxdrawdown_allowed_drawdown": 0.0,
+      "maxdrawdown_protection_lookback": 6,
+      "maxdrawdown_stop_duration": 6,
+      "maxdrawdown_trade_limit": 10,
+      "stop_duration": 5,
+      "stop_protection_only_per_pair": false,
+      "stop_protection_only_per_side": false,
+      "stop_protection_required_profit": 0.0,
+      "stop_protection_trade_limit": 4,
+      "use_lowprofit_protection": true,
+      "use_maxdrawdown_protection": true,
+      "use_stop_protection": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-23 06:33:36.161232+00:00"
+}

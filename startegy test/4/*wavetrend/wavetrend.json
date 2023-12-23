@@ -1,0 +1,40 @@
+{
+  "strategy_name": "wavetrend",
+  "params": {
+    "roi": {
+      "0": 0.5,
+      "60": 0.45,
+      "120": 0.4,
+      "180": 0.3,
+      "300": 0.2,
+      "600": 0.15,
+      "12000": 0.1
+    },
+    "stoploss": {
+      "stoploss": -0.4
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_rsi": 30,
+      "max_epa": 3
+    },
+    "sell": {
+      "sell_rsi": 63
+    },
+    "protection": {
+      "cooldown_lookback": 2,
+      "stop_duration": 115,
+      "use_stop_protection": false
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-23 09:40:01.003682+00:00"
+}

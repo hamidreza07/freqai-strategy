@@ -1,0 +1,48 @@
+{
+  "strategy_name": "WTHO",
+  "params": {
+    "roi": {
+      "0": 0.1
+    },
+    "stoploss": {
+      "stoploss": -0.025
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_d_length": 11,
+      "buy_esa_length": 19,
+      "buy_mfi": 58,
+      "buy_mfi_slope": -20,
+      "buy_sma_pc": -6,
+      "buy_wt1_length": 17,
+      "buy_wt2_length": 12,
+      "buy_wt_pc": -15,
+      "max_epa": 5,
+      "wt_os": -42,
+      "wt_os_sma": 39
+    },
+    "sell": {
+      "sell_mfi": 85,
+      "sell_mfi_slope": -17,
+      "sell_sma_pc": 0,
+      "sell_wt_pc": 20,
+      "wt_ob": 50,
+      "wt_ob_sma": 12
+    },
+    "protection": {
+      "cooldown_lookback": 41,
+      "stop_duration": 197,
+      "use_stop_protection": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-23 10:02:10.849474+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "strategy_name": "TD",
+  "params": {
+    "roi": {
+      "0": 0.1
+    },
+    "stoploss": {
+      "stoploss": -0.4
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "max_epa": 10,
+      "sma_ha_close": 7
+    },
+    "sell": {
+      "sma_ha_open": 14
+    },
+    "protection": {
+      "cooldown_lookback": 4,
+      "stop_duration": 121,
+      "use_stop_protection": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-23 08:02:59.952303+00:00"
+}

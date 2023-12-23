@@ -1,0 +1,62 @@
+{
+  "strategy_name": "thetank3",
+  "params": {
+    "roi": {
+      "0": 0.5,
+      "60": 0.45,
+      "120": 0.4,
+      "180": 0.3,
+      "300": 0.15,
+      "2400": 0.1,
+      "12000": 0.01
+    },
+    "stoploss": {
+      "stoploss": -0.09
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_rsi": 23,
+      "buy_rsi_bear": 50,
+      "buy_rsi_bull": 75,
+      "buy_wt_bear": 23,
+      "buy_wt_bull": 45,
+      "dca1": 0.08,
+      "dca2": 0.12,
+      "dca3": 0.22,
+      "filterlength": 25,
+      "max_epa": 1,
+      "wavelength": 9
+    },
+    "sell": {
+      "crosslength": 9,
+      "sell_rsi": 54,
+      "ts0": 0.009,
+      "ts1": 0.01,
+      "ts2": 0.03,
+      "ts3": 0.036,
+      "ts4": 0.048,
+      "ts5": 0.043,
+      "tsl_target0": 0.043,
+      "tsl_target1": 0.055,
+      "tsl_target2": 0.083,
+      "tsl_target3": 0.127,
+      "tsl_target4": 0.294,
+      "tsl_target5": 0.3
+    },
+    "protection": {
+      "cooldown_lookback": 9,
+      "stop_duration": 71,
+      "use_stop_protection": false
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-23 08:18:58.011027+00:00"
+}

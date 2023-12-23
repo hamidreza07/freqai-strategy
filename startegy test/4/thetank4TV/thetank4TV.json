@@ -1,0 +1,60 @@
+{
+  "strategy_name": "thetank4TV",
+  "params": {
+    "roi": {
+      "0": 0.5,
+      "60": 0.45,
+      "120": 0.4,
+      "180": 0.3,
+      "300": 0.15,
+      "2400": 0.1,
+      "12000": 0.01
+    },
+    "stoploss": {
+      "stoploss": -0.09
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_rsi": 27,
+      "buy_rsi_bear": 46,
+      "buy_rsi_bull": 52,
+      "buy_wt_bear": 20,
+      "buy_wt_bull": 43,
+      "dca1": 0.03,
+      "filterlength": 15,
+      "max_epa": 0,
+      "wavelength": 5
+    },
+    "sell": {
+      "crosslength": 3,
+      "sell_rsi": 79,
+      "ts0": 0.015,
+      "ts1": 0.012,
+      "ts2": 0.026,
+      "ts3": 0.039,
+      "ts4": 0.05,
+      "ts5": 0.056,
+      "tsl_target0": 0.037,
+      "tsl_target1": 0.052,
+      "tsl_target2": 0.106,
+      "tsl_target3": 0.115,
+      "tsl_target4": 0.191,
+      "tsl_target5": 0.2
+    },
+    "protection": {
+      "cooldown_lookback": 7,
+      "stop_duration": 54,
+      "use_stop_protection": false
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-23 08:28:29.286284+00:00"
+}
