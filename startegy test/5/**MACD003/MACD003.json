@@ -1,0 +1,35 @@
+{
+  "strategy_name": "MACD003",
+  "params": {
+    "roi": {
+      "0": 0.171,
+      "15": 0.08,
+      "40": 0.011,
+      "131": 0
+    },
+    "stoploss": {
+      "stoploss": -0.332
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.153,
+      "trailing_stop_positive_offset": 0.219,
+      "trailing_only_offset_is_reached": true
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_bb_gain": 0.0,
+      "buy_fisher": 0.9,
+      "buy_mfi": 21.0
+    },
+    "sell": {
+      "sell_fisher": 0.95,
+      "sell_mfi": 12.0
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-24 11:23:01.703405+00:00"
+}

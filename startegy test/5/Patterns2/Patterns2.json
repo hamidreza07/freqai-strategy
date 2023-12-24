@@ -1,0 +1,36 @@
+{
+  "strategy_name": "Patterns2",
+  "params": {
+    "roi": {
+      "0": 0.155,
+      "65": 0.075,
+      "87": 0.039,
+      "305": 0
+    },
+    "stoploss": {
+      "stoploss": -0.253
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.288,
+      "trailing_stop_positive_offset": 0.302,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_bb_enabled": false,
+      "buy_bb_gain": 0.08,
+      "buy_mfi": 2.0,
+      "buy_mfi_enabled": false,
+      "buy_rsi": 30.0,
+      "buy_rsi_enabled": false,
+      "buy_sma_enabled": true
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-24 15:58:00.110605+00:00"
+}
