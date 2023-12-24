@@ -1,0 +1,36 @@
+{
+  "strategy_name": "BigDrop",
+  "params": {
+    "roi": {
+      "0": 0.155,
+      "65": 0.075,
+      "87": 0.039,
+      "305": 0
+    },
+    "stoploss": {
+      "stoploss": -0.253
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.288,
+      "trailing_stop_positive_offset": 0.302,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_bb_enabled": false,
+      "buy_drop": 0.01,
+      "buy_fisher": 0.48,
+      "buy_fisher_enabled": true,
+      "buy_mfi": 38.0,
+      "buy_mfi_enabled": false,
+      "buy_num_candles": 7
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-24 09:11:12.864702+00:00"
+}

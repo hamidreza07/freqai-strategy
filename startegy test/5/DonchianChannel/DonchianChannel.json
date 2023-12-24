@@ -1,0 +1,49 @@
+{
+  "strategy_name": "DonchianChannel",
+  "params": {
+    "roi": {
+      "0": 0.155,
+      "65": 0.075,
+      "87": 0.039,
+      "305": 0
+    },
+    "stoploss": {
+      "stoploss": -0.253
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.288,
+      "trailing_stop_positive_offset": 0.302,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_adx": 89.0,
+      "buy_adx_enabled": false,
+      "buy_dc_period": 26,
+      "buy_dm_enabled": false,
+      "buy_ema_enabled": false,
+      "buy_fisher": -0.9,
+      "buy_fisher_enabled": false,
+      "buy_macd_enabled": false,
+      "buy_mfi": 3.0,
+      "buy_mfi_enabled": true,
+      "buy_sar_enabled": false,
+      "buy_sma_enabled": false
+    },
+    "sell": {
+      "sell_adx_enabled": false,
+      "sell_dm_enabled": false,
+      "sell_ema_enabled": true,
+      "sell_hold": true,
+      "sell_macd_enabled": true,
+      "sell_sar_enabled": false,
+      "sell_sma_enabled": true
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-24 10:02:09.913886+00:00"
+}

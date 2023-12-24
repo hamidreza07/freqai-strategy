@@ -1,0 +1,39 @@
+{
+  "strategy_name": "BuyDips",
+  "params": {
+    "roi": {
+      "0": 0.155,
+      "65": 0.075,
+      "87": 0.039,
+      "305": 0
+    },
+    "stoploss": {
+      "stoploss": -0.253
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.288,
+      "trailing_stop_positive_offset": 0.302,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_bb_gain": 0.06,
+      "buy_bb_gain_enabled": false,
+      "buy_mfi": 89.0,
+      "buy_mfi_enabled": false,
+      "buy_neg_macd_enabled": false
+    },
+    "sell": {
+      "sell_fisher": -0.5,
+      "sell_fisher_enabled": false,
+      "sell_hold_enabled": false,
+      "sell_sar_enabled": false
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-24 09:34:36.747538+00:00"
+}

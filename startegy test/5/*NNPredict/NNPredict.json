@@ -1,0 +1,41 @@
+{
+  "strategy_name": "NNPredict",
+  "params": {
+    "roi": {
+      "0": 0.04,
+      "100": 0.02
+    },
+    "stoploss": {
+      "stoploss": -0.99
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "enable_entry_guards": true,
+      "cexit_min_profit_th": 0.5,
+      "cexit_profit_nstd": 1.3,
+      "entry_guard_fwr": -0.1
+    },
+    "sell": {
+      "cexit_enable_large_drop": false,
+      "cexit_large_drop": -1.9,
+      "enable_exit_guards": true,
+      "enable_exit_signal": true,
+      "cexit_fwr_overbought": 0.99,
+      "cexit_fwr_take_profit": 0.99,
+      "cexit_loss_nstd": 0.8,
+      "cexit_min_loss_th": -0.5,
+      "exit_guard_fwr": 0.4
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-24 07:15:52.463429+00:00"
+}

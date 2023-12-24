@@ -1,0 +1,37 @@
+{
+  "strategy_name": "DCBBBounce",
+  "params": {
+    "roi": {
+      "0": 0.278,
+      "39": 0.087,
+      "124": 0.038,
+      "135": 0
+    },
+    "stoploss": {
+      "stoploss": -0.333
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.172,
+      "trailing_stop_positive_offset": 0.212,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_adx": 28.0,
+      "buy_adx_enabled": false,
+      "buy_ema_enabled": false,
+      "buy_period": 19,
+      "buy_sar_enabled": true,
+      "buy_sma_enabled": false
+    },
+    "sell": {
+      "sell_hold": true
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-24 09:51:25.569002+00:00"
+}
