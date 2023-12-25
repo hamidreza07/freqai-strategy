@@ -59,9 +59,9 @@ class BollingerBounce(IStrategy):
     stoploss = Config.stoploss
     timeframe = Config.timeframe
     process_only_new_candles = Config.process_only_new_candles
-    use_exit_signal = Config.use_sell_signal
-    exit_profit_only = Config.sell_profit_only
-    ignore_roi_if_entry_signal = Config.ignore_roi_if_buy_signal
+    use_exit_signal = Config.use_exit_signal
+    exit_profit_only = Config.exit_profit_only
+    ignore_roi_if_entry_signal = Config.ignore_roi_if_entry_signal
     order_types = Config.order_types
 
     def informative_pairs(self):
