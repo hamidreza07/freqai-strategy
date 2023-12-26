@@ -1,0 +1,46 @@
+{
+  "strategy_name": "Bandtastic",
+  "params": {
+    "roi": {
+      "0": 0.162,
+      "69": 0.097,
+      "229": 0.061,
+      "566": 0
+    },
+    "stoploss": {
+      "stoploss": -0.345
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.01,
+      "trailing_stop_positive_offset": 0.058,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_ema_enabled": false,
+      "buy_fastema": 235,
+      "buy_mfi": 53,
+      "buy_mfi_enabled": true,
+      "buy_rsi": 41,
+      "buy_rsi_enabled": false,
+      "buy_slowema": 102,
+      "buy_trigger": "bb_lower3"
+    },
+    "sell": {
+      "sell_ema_enabled": false,
+      "sell_fastema": 163,
+      "sell_mfi": 76,
+      "sell_mfi_enabled": true,
+      "sell_rsi": 92,
+      "sell_rsi_enabled": true,
+      "sell_slowema": 56,
+      "sell_trigger": "sell-bb_upper4"
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-26 10:08:20.626451+00:00"
+}

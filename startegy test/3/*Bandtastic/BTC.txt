@@ -1,0 +1,71 @@
+============================================================== BACKTESTING REPORT =============================================================
+|          Pair |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|---------------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| BTC/USDT:USDT |        24 |           0.45 |          10.81 |          1117.428 |          11.17 |       16:21:00 |    11     0    13  45.8 |
+|         TOTAL |        24 |           0.45 |          10.81 |          1117.428 |          11.17 |       16:21:00 |    11     0    13  45.8 |
+======================================================= LEFT OPEN TRADES REPORT ========================================================
+|   Pair |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|--------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+|  TOTAL |         0 |           0.00 |           0.00 |             0.000 |           0.00 |           0:00 |     0     0     0     0 |
+=========================================================== ENTER TAG STATS ===========================================================
+|   TAG |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |        24 |           0.45 |          10.81 |          1117.428 |          11.17 |       16:21:00 |    11     0    13  45.8 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      24 |     11     0    13  45.8 |           0.45 |          10.81 |           1117.43 |          10.81 |
+================== SUMMARY METRICS ===================
+| Metric                      | Value                |
+|-----------------------------+----------------------|
+| Backtesting from            | 2023-11-01 00:00:00  |
+| Backtesting to              | 2023-12-01 00:00:00  |
+| Max open trades             | 1                    |
+|                             |                      |
+| Total/Daily Avg Trades      | 24 / 0.8             |
+| Starting balance            | 10000 USDT           |
+| Final balance               | 11117.428 USDT       |
+| Absolute profit             | 1117.428 USDT        |
+| Total profit %              | 11.17%               |
+| CAGR %                      | 262.84%              |
+| Sortino                     | 181.65               |
+| Sharpe                      | 9.18                 |
+| Calmar                      | 4802.02              |
+| Profit factor               | 27.74                |
+| Expectancy (Ratio)          | 46.56 (14.49)        |
+| Trades per day              | 0.8                  |
+| Avg. daily profit %         | 0.37%                |
+| Avg. stake amount           | 10584.042 USDT       |
+| Total trade volume          | 254017.007 USDT      |
+|                             |                      |
+| Best Pair                   | BTC/USDT:USDT 10.81% |
+| Worst Pair                  | BTC/USDT:USDT 10.81% |
+| Best trade                  | BTC/USDT:USDT 2.93%  |
+| Worst trade                 | BTC/USDT:USDT -0.14% |
+| Best day                    | 296.416 USDT         |
+| Worst day                   | -14.759 USDT         |
+| Days win/draw/lose          | 8 / 9 / 9            |
+| Avg. Duration Winners       | 9:30:00              |
+| Avg. Duration Loser         | 22:08:00             |
+| Max Consecutive Wins / Loss | 2 / 5                |
+| Rejected Entry signals      | 0                    |
+| Entry/Exit Timeouts         | 0 / 0                |
+|                             |                      |
+| Min balance                 | 9992.215 USDT        |
+| Max balance                 | 11118.526 USDT       |
+| Max % of account underwater | 0.15%                |
+| Absolute Drawdown (Account) | 0.15%                |
+| Absolute Drawdown           | 15.804 USDT          |
+| Drawdown high               | 664.713 USDT         |
+| Drawdown low                | 648.909 USDT         |
+| Drawdown Start              | 2023-11-12 21:55:00  |
+| Drawdown End                | 2023-11-17 03:35:00  |
+| Market change               | 8.85%                |
+======================================================
+
+Backtested 2023-11-01 00:00:00 -> 2023-12-01 00:00:00 | Max open trades : 1
+======================================================================== STRATEGY SUMMARY =======================================================================
+|   Strategy |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |           Drawdown |
+|------------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------+--------------------|
+| Bandtastic |        24 |           0.45 |          10.81 |          1117.428 |          11.17 |       16:21:00 |    11     0    13  45.8 | 15.804 USDT  0.15% |
+=================================================================================================================================================================

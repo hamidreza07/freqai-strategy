@@ -1,0 +1,63 @@
+{
+  "strategy_name": "BB_RPB_TSL_RNG_2",
+  "params": {
+    "roi": {
+      "0": 0.1
+    },
+    "stoploss": {
+      "stoploss": -0.99
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_is_break_enabled": true,
+      "buy_is_dip_enabled": true,
+      "buy_adx": 28,
+      "buy_bb_delta": 0.032,
+      "buy_bb_factor": 0.993,
+      "buy_bb_width": 0.096,
+      "buy_btc_safe": -181,
+      "buy_btc_safe_1d": -0.048,
+      "buy_cci": -90,
+      "buy_cci_length": 35,
+      "buy_closedelta": 14.414,
+      "buy_ema_cofi": 0.96,
+      "buy_ema_diff": 0.025,
+      "buy_ema_high": 1.101,
+      "buy_ema_high_2": 1.133,
+      "buy_ema_low": 0.99,
+      "buy_ema_low_2": 0.96,
+      "buy_ewo": -5.443,
+      "buy_ewo_high": 10.587,
+      "buy_fastd": 29,
+      "buy_fastk": 30,
+      "buy_rmi": 50,
+      "buy_rmi_length": 14,
+      "buy_rsi": 26,
+      "buy_rsi_fast": 48,
+      "buy_srsi_fk": 43,
+      "buy_threshold": 0.01
+    },
+    "sell": {
+      "base_nb_candles_sell": 47,
+      "high_offset": 1.033,
+      "high_offset_2": 1.413,
+      "pHSL": -0.1,
+      "pPF_1": 0.018,
+      "pPF_2": 0.048,
+      "pSL_1": 0.02,
+      "pSL_2": 0.048,
+      "sell_btc_safe": -337
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-26 10:22:00.283124+00:00"
+}

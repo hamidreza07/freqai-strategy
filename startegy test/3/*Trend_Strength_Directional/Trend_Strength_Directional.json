@@ -1,0 +1,40 @@
+{
+  "strategy_name": "Trend_Strength_Directional",
+  "params": {
+    "roi": {
+      "0": 0.383,
+      "120": 0.082,
+      "283": 0.045,
+      "495": 0
+    },
+    "stoploss": {
+      "stoploss": -0.314
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.307,
+      "trailing_stop_positive_offset": 0.364,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_adx": 6,
+      "buy_adx_timeframe": 39,
+      "buy_minusdi": 21,
+      "buy_plusdi": 87,
+      "buy_plusdi_enabled": false
+    },
+    "sell": {
+      "sell_adx": 40,
+      "sell_adx_timeframe": 10,
+      "sell_minusdi": 75,
+      "sell_plusdi": 99,
+      "sell_plusdi_enabled": true
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-12-26 13:19:19.511728+00:00"
+}

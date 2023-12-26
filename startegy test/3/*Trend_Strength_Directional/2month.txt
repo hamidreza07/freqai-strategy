@@ -1,0 +1,74 @@
+============================================================== BACKTESTING REPORT =============================================================
+|          Pair |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|---------------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| BTC/USDT:USDT |        40 |           0.16 |           6.52 |           653.318 |           6.53 |       17:00:00 |    14     0    26  35.0 |
+|         TOTAL |        40 |           0.16 |           6.52 |           653.318 |           6.53 |       17:00:00 |    14     0    26  35.0 |
+=========================================================== LEFT OPEN TRADES REPORT ===========================================================
+|          Pair |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|---------------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| BTC/USDT:USDT |         1 |          -0.46 |          -0.46 |           -48.225 |          -0.48 |       12:00:00 |     0     0     1     0 |
+|         TOTAL |         1 |          -0.46 |          -0.46 |           -48.225 |          -0.48 |       12:00:00 |     0     0     1     0 |
+=========================================================== ENTER TAG STATS ===========================================================
+|   TAG |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |        40 |           0.16 |           6.52 |           653.318 |           6.53 |       17:00:00 |    14     0    26  35.0 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      33 |     14     0    19  42.4 |           0.36 |          11.77 |          1198.19  |          11.77 |
+|   exit_signal |       6 |      0     0     6     0 |          -0.8  |          -4.79 |          -496.65  |          -4.79 |
+|    force_exit |       1 |      0     0     1     0 |          -0.46 |          -0.46 |           -48.225 |          -0.46 |
+================== SUMMARY METRICS ===================
+| Metric                      | Value                |
+|-----------------------------+----------------------|
+| Backtesting from            | 2023-11-01 00:00:00  |
+| Backtesting to              | 2023-12-01 00:00:00  |
+| Max open trades             | 1                    |
+|                             |                      |
+| Total/Daily Avg Trades      | 40 / 1.33            |
+| Starting balance            | 10000 USDT           |
+| Final balance               | 10653.318 USDT       |
+| Absolute profit             | 653.318 USDT         |
+| Total profit %              | 6.53%                |
+| CAGR %                      | 115.97%              |
+| Sortino                     | 8.60                 |
+| Sharpe                      | 5.37                 |
+| Calmar                      | 194.55               |
+| Profit factor               | 2.06                 |
+| Expectancy (Ratio)          | 16.33 (0.69)         |
+| Trades per day              | 1.33                 |
+| Avg. daily profit %         | 0.22%                |
+| Avg. stake amount           | 10352.888 USDT       |
+| Total trade volume          | 414115.537 USDT      |
+|                             |                      |
+| Best Pair                   | BTC/USDT:USDT 6.52%  |
+| Worst Pair                  | BTC/USDT:USDT 6.52%  |
+| Best trade                  | BTC/USDT:USDT 2.57%  |
+| Worst trade                 | BTC/USDT:USDT -2.15% |
+| Best day                    | 259.581 USDT         |
+| Worst day                   | -219.337 USDT        |
+| Days win/draw/lose          | 10 / 8 / 13          |
+| Avg. Duration Winners       | 8:15:00              |
+| Avg. Duration Loser         | 21:43:00             |
+| Max Consecutive Wins / Loss | 3 / 8                |
+| Rejected Entry signals      | 0                    |
+| Entry/Exit Timeouts         | 0 / 0                |
+|                             |                      |
+| Min balance                 | 10047.946 USDT       |
+| Max balance                 | 10837.657 USDT       |
+| Max % of account underwater | 2.14%                |
+| Absolute Drawdown (Account) | 2.14%                |
+| Absolute Drawdown           | 220.349 USDT         |
+| Drawdown high               | 303.767 USDT         |
+| Drawdown low                | 83.418 USDT          |
+| Drawdown Start              | 2023-11-02 00:50:00  |
+| Drawdown End                | 2023-11-04 19:50:00  |
+| Market change               | 8.85%                |
+======================================================
+
+Backtested 2023-11-01 00:00:00 -> 2023-12-01 00:00:00 | Max open trades : 1
+================================================================================ STRATEGY SUMMARY ================================================================================
+|                   Strategy |   Entries |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |            Drawdown |
+|----------------------------+-----------+----------------+----------------+-------------------+----------------+----------------+-------------------------+---------------------|
+| Trend_Strength_Directional |        40 |           0.16 |           6.52 |           653.318 |           6.53 |       17:00:00 |    14     0    26  35.0 | 220.349 USDT  2.14% |
+==================================================================================================================================================================================
