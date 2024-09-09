@@ -74,7 +74,7 @@ Feel free to open issues or pull requests if you want to contribute to improving
 
 ## Contact
 
-For any questions or suggestions, you can reach out to [Hamidreza Habibi](hamidreza07@gmail.com).
+For any questions or suggestions, you can reach out to [Hamidreza Habibi](https://github.com/hamidreza07).
 
 ---
 
