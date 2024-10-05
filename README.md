@@ -19,37 +19,12 @@ This repository contains strategies designed for the [FreqAI](https://github.com
     cd freqai-strategy
     ```
 
-2. Install FreqTrade and FreqAI (if not already installed):
-    ```bash
-    # FreqTrade installation
-    git clone https://github.com/freqtrade/freqtrade.git
-    cd freqtrade
-    ./setup.sh --install
-
-    # FreqAI installation
-    pip install freqai
-    ```
+2. Install FreqTrade
 
 3. Copy the strategy files from this repository into your FreqTrade `user_data/strategies` directory.
 
 4. Edit the configuration file (config.json) to fit your exchange and trading pair needs.
 
-## Usage
-
-1. **Backtesting**: To backtest one of the strategies, use the following command:
-    ```bash
-    freqtrade backtesting --strategy YourStrategyName --timerange 20210101-20220101
-    ```
-
-2. **Hyperparameter Optimization**: To optimize the strategy, run:
-    ```bash
-    freqtrade hyperopt --hyperopt YourStrategyNameHyperopt --spaces buy sell roi trailing --timerange=20210101-20220101
-    ```
-
-3. **Running the bot**: After backtesting and optimization, you can run the bot with your chosen strategy:
-    ```bash
-    freqtrade trade --strategy YourStrategyName
-    ```
 
 ## Strategy Details
 
